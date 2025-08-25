@@ -129,7 +129,7 @@ This Airbnb Clone project includes the following core features that simulate the
 ---
 ---
 
-## 🔒 API Security  
+##  API Security  
 
 Security is a critical part of building a trustworthy and scalable booking platform. The following measures will be implemented to ensure that data and transactions remain safe:  
 
