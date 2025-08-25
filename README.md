@@ -35,4 +35,18 @@ Each role contributes to the success of the Airbnb Clone project:
 - **Project Manager** → Coordinates tasks, manages timelines, and ensures that the team follows agile practices and project objectives.  
 - **QA Engineer (Tester)** → Validates features, writes test cases, and ensures the system is secure, bug-free, and performs well before release.  
 - **Security Engineer** → Focuses on protecting user data, securing APIs, and implementing best practices to prevent vulnerabilities.  
+---
+
+##  Technology Stack  
+
+This project leverages a modern backend-focused technology stack to build a scalable, secure, and efficient Airbnb-like booking platform. Each technology has a clear purpose in achieving project goals:  
+
+- **Django** → A high-level Python web framework used to build backend logic, manage authentication, and expose RESTful/GraphQL APIs.  
+- **PostgreSQL** → A powerful relational database for storing and managing structured data such as users, properties, bookings, and payments.  
+- **GraphQL** → A flexible query language and runtime for APIs, enabling clients to request only the data they need, improving performance.  
+- **Docker** → Provides containerization to ensure the app runs consistently across different environments (development, staging, production).  
+- **GitHub Actions (CI/CD)** → Automates testing, deployment, and integration pipelines to ensure efficient and reliable releases.  
+- **Nginx** → Used as a reverse proxy and load balancer to handle client requests efficiently and improve scalability.  
+
+---
 
