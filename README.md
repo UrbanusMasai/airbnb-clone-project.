@@ -5,7 +5,6 @@ A backend-focused Airbnb Clone project exploring database design, API developmen
 This project is a backend-focused simulation of an Airbnb-like booking platform.  
 It explores **real-world software development practices**, including database design, API development, security, and CI/CD deployment.
 
----
 
 ##  Project Goals
 - Master collaborative team workflows using GitHub.  
@@ -14,7 +13,6 @@ It explores **real-world software development practices**, including database de
 - Learn CI/CD automation for smooth deployments.  
 - Integrate modern tools like **Django, PostgreSQL, GraphQL, and Docker**.  
 
----
 
 ##  Technology Stack
 - **Django** → Backend framework for APIs, authentication, and business logic.  
