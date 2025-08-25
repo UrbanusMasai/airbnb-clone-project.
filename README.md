@@ -49,4 +49,57 @@ This project leverages a modern backend-focused technology stack to build a scal
 - **Nginx** → Used as a reverse proxy and load balancer to handle client requests efficiently and improve scalability.  
 
 ---
+---
+
+###🗄 Database Design  
+
+The database is designed to support core Airbnb-like functionalities, ensuring scalability, data integrity, and clear relationships between entities.  
+
+### **Key Entities & Fields**  
+
+1. **Users**  
+   - `id` (Primary Key)  
+   - `name`  
+   - `email` (unique)  
+   - `password_hash`  
+   - `role` (guest, host, admin)  
+
+2. **Properties**  
+   - `id` (Primary Key)  
+   - `user_id` (Foreign Key → Users)  
+   - `title`  
+   - `description`  
+   - `location`  
+   - `price_per_night`  
+
+3. **Bookings**  
+   - `id` (Primary Key)  
+   - `user_id` (Foreign Key → Users)  
+   - `property_id` (Foreign Key → Properties)  
+   - `start_date`  
+   - `end_date`  
+   - `status` (pending, confirmed, cancelled)  
+
+4. **Reviews**  
+   - `id` (Primary Key)  
+   - `user_id` (Foreign Key → Users)  
+   - `property_id` (Foreign Key → Properties)  
+   - `rating` (1–5)  
+   - `comment`  
+
+5. **Payments**  
+   - `id` (Primary Key)  
+   - `booking_id` (Foreign Key → Bookings)  
+   - `amount`  
+   - `payment_date`  
+   - `status` (completed, pending, failed)  
+
+### **Entity Relationships**  
+- A **User** can list multiple **Properties**.  
+- A **User** can make multiple **Bookings**.  
+- A **Booking** is linked to a single **Property**.  
+- A **User** can leave multiple **Reviews**, but only one review per booking/property.  
+- A **Payment** is tied to a single **Booking**.  
+
+---
 
