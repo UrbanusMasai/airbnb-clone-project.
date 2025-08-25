@@ -127,4 +127,41 @@ This Airbnb Clone project includes the following core features that simulate the
    Administrators can oversee users, properties, bookings, and payments. This ensures the platform runs smoothly and maintains security and trust across all interactions.  
 
 ---
+---
+
+## 🔒 API Security  
+
+Security is a critical part of building a trustworthy and scalable booking platform. The following measures will be implemented to ensure that data and transactions remain safe:  
+
+1. **Authentication**  
+   - Only registered users can access protected resources.  
+   - We will implement **JWT (JSON Web Tokens)** or session-based authentication.  
+   - Protects user accounts from unauthorized access.  
+
+2. **Authorization**  
+   - Role-based access control (RBAC) will determine what guests, hosts, and admins can do.  
+   - Ensures users only perform actions they are permitted to (e.g., only hosts can manage property listings).  
+
+3. **Rate Limiting**  
+   - Prevents abuse of the API through excessive requests.  
+   - Helps protect against denial-of-service (DoS) attacks and ensures fair resource usage.  
+
+4. **Data Validation & Sanitization**  
+   - All inputs will be validated and sanitized before processing.  
+   - Prevents injection attacks such as SQL injection or XSS (Cross-Site Scripting).  
+
+5. **Secure Payments**  
+   - Payment data will be handled through secure third-party gateways.  
+   - Ensures sensitive financial information is never exposed or stored insecurely.  
+
+6. **Encryption**  
+   - Sensitive data (like passwords) will be hashed and stored securely.  
+   - All communication between clients and the server will use **HTTPS (TLS/SSL)**.  
+
+**Why this matters**:  
+- Protects user privacy and sensitive data (personal info, payment details).  
+- Builds trust between users and the platform.  
+- Ensures compliance with security best practices and industry standards.  
+
+---
 
