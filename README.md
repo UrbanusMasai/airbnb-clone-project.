@@ -166,7 +166,7 @@ Security is a critical part of building a trustworthy and scalable booking platf
 ---
 ---
 
-## 🚀 CI/CD Pipeline  
+##  CI/CD Pipeline  
 
 Continuous Integration and Continuous Deployment (CI/CD) pipelines are essential for automating the software development process. They ensure that new code changes are tested, integrated, and deployed efficiently with minimal manual effort.  
 
