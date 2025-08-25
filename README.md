@@ -51,7 +51,7 @@ This project leverages a modern backend-focused technology stack to build a scal
 ---
 ---
 
-###🗄 Database Design  
+###Database Design  
 
 The database is designed to support core Airbnb-like functionalities, ensuring scalability, data integrity, and clear relationships between entities.  
 
