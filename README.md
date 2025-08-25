@@ -22,3 +22,17 @@ It explores **real-world software development practices**, including database de
 - **GraphQL** → API query language for flexible data retrieval.  
 - **Docker** → Containerization for deployment and environment consistency.  
 - **GitHub Actions** → CI/CD pipeline automation.  
+---
+
+##  Team Roles
+
+This project simulates a real-world software development team.  
+Each role contributes to the success of the Airbnb Clone project:
+
+- **Backend Developer** → Builds and maintains the core application logic, REST/GraphQL APIs, authentication, and integrations with the database.  
+- **Database Administrator (DBA)** → Designs, manages, and optimizes the database structure, ensuring data consistency, security, and performance.  
+- **DevOps Engineer** → Manages CI/CD pipelines, Docker containers, and deployment environments to guarantee smooth and scalable releases.  
+- **Project Manager** → Coordinates tasks, manages timelines, and ensures that the team follows agile practices and project objectives.  
+- **QA Engineer (Tester)** → Validates features, writes test cases, and ensures the system is secure, bug-free, and performs well before release.  
+- **Security Engineer** → Focuses on protecting user data, securing APIs, and implementing best practices to prevent vulnerabilities.  
+
